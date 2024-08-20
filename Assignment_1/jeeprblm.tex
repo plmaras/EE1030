@@ -46,38 +46,37 @@
 \begin{document}
 
 \bibliographystyle{IEEEtran}
+\onecolumn
 \vspace{3cm}
 \title{Mathematical Induction and Binomial theorem}
 \author{Golla Shriram - AI24BTech11010}
 
 \maketitle
-\newpage
-\bigskip
+
 
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 
 
-\section{E - Subjective Problems}
+\section*{\textbf{E - Subjective Problems}}
                                                                            
     
      \begin{enumerate}
 		
           \item Given that  \hfill{(1979)} 
-			  \begin{multline*}
-C_1 + 2C_2x + 3C_3x^2 + .............. +\\ 2nC_{2n}x^{2n-1}   =    2n(1+x)^{2n-1} 
-			  \end{multline*}
+			  \begin{align*}
+C_1 + 2C_2x + 3C_3x^2 + .............. + 2nC_{2n}x^{2n-1}   =    2n(1+x)^{2n-1} 
+			  \end{align*}
 		
-		where $C_r =\frac{\brak{2n}!}{r!\brak{2n-r}!}$ $r=0,1,2,...........,2n$\\
-		          Prove that  \begin{align*} 
+		where $C_r =\frac{\brak{2n}!}{r!\brak{2n-r}!}$ $r=0,1,2,...........,2n$     Prove that  \begin{align*} 
 		     C^2_1-2C_2^2+3C_3^2-.............-2nC_{2n}^2  = (-1)^nnC_n. 
 		     \end{align*}  
 
-	   \item Prove that $ 7^{2n} + \brak{2^{3n-2}}  \brak{3^{n-1}} $ is divisible by 25 for any natural number $ n$ \hfill{(1982-5M)}  
+	   \item Prove that $ 7^{2n} + \brak{2^{3n-2}}  \brak{3^{n-1}} $ is divisible by 25 for any natural number $ n$. \hfill{(1982-5M)}  
 
 
            \item If $ \brak{1+x}^n= C_0 + C_1x +C_2x^2+......+C_nx^n $ then show that the sum of products of $ C_i $'s taken
-		   two at a time, represented by $ \displaystyle\sum_{0 \leq i<j \leq n} \displaystyle\sum C_i C_j $ is equal to $ 2^{2n-1}$-$\frac{\brak{2n}!} {2\brak{n!}^2} $ \hfill{(1983-3M)}
+		   two at a time, represented by $ \sum\limits_{0 \leq i<j \leq n}^{}\sum C_i C_j $ is equal to $ 2^{2n-1}$-$\frac{\brak{2n}!} {2\brak{n!}^2} $ \hfill{(1983-3M)}
 
 	   \item Use mathematical Induction to prove : If $n$ is any odd positive integer , then  $ n\brak{n^2-1} $ is divisible by 24.
 		   \hfill{(1983-2M)}
@@ -85,17 +84,17 @@ C_1 + 2C_2x + 3C_3x^2 + .............. +\\ 2nC_{2n}x^{2n-1}   =    2n(1+x)^{2n-1
 
 	   \item If $ p $ be a natural number then prove that $ p^{n+1}+\brak{p+1}^{2n-1} $ is divisible by $ p^2+p+1 $ for every positive integer $n$. \hfill{(1984-4M)} 
 
-            \item Given  $ s_n = 1 + q + q^2 +....+q^n;$\\
-		    $ S_n = 1 + \frac{q+1}{2}+\brak{\frac{q+1}{2}}^2+.....+\brak{\frac{q+1}{2}}^n,q\neq1 $ . Prove that	\begin{align*} 
+            \item Given  $ s_n = 1 + q + q^2 +....+q^n;$
+		    $ S_n = 1 + \frac{q+1}{2}+\brak{\frac{q+1}{2}}^2+.....+\brak{\frac{q+1}{2}}^n,q\neq1 $ . Prove that
+		     \begin{align*} 
 			    \comb{n+1}{1}+\comb{n+1}{2}s_1+\comb{n+1}{3}s_2+.....+\comb{n+1}{n}s_n=2^nS_n
 		    \end{align*}    \hfill{(1984-4M)}
 
 
-	    \item Use method of mathematical Induction \\ $ 2.7^n +3.5^n-5 $ is divisible by 24 for all $ n>0 $ \hfill{(1985-5M)}
+	    \item Use method of mathematical Induction  $ 2.7^n +3.5^n-5 $ is divisible by 24 for all $ n>0 $ \hfill{(1985-5M)}
 
 
-	    \item Prove by mathematical induction that -\\
-		    $ \frac{\brak{2n}!}{2^{2n}\brak{n!}^2}\leq \frac{1}{\brak{3n+1}^{\frac{1}{2}}} $  for all postive Integers $n$.\hfill {(1987-3M)}
+	    \item Prove by mathematical induction that -$\frac{\brak{2n}!}{2^{2n}\brak{n!}^2}\leq \frac{1}{\brak{3n+1}^{\frac{1}{2}}} $ for all postive Integers $n$.\hfill {(1987-3M)}
 
 
 	    \item Let $ R =\brak{5\sqrt{5}+11}^{2n} $ and $ f = R -\sbrak{R} $, where \sbrak{} denotes the greatest integer function.Prove  that $ Rf =4^{2n+4 } $  \hfill {(1988-5M)}
@@ -108,7 +107,7 @@ C_1 + 2C_2x + 3C_3x^2 + .............. +\\ 2nC_{2n}x^{2n-1}   =    2n(1+x)^{2n-1
 	    \item Prove that \hfill{(1989-5M)}
 		    \begin{align*} 
 		    C_0-2^2C_1+3^2C_2-............+\brak{-1}^n\brak{n+1}^2C_n =0
-		    \end{align*},$n>2$ , where $\comb{n}{r}$
+		    \end{align*},$n>2$ , where $C_r =\comb{n}{r}$
 		    
 
 	    \item Prove that   $ \frac{n^7}{7}+\frac{n^5}{5}+\frac{2n^3}{3}-\frac{n}{105}$ is an integer for every positive integer $ n$. \hfill{(1990-2M)}
@@ -120,10 +119,14 @@ C_1 + 2C_2x + 3C_3x^2 + .............. +\\ 2nC_{2n}x^{2n-1}   =    2n(1+x)^{2n-1
 		    \end{align*}
 		     \hfill{(1991-4M)} 
 
-	     \item If $ \displaystyle\sum_{r=0}^{2n} a_r \brak{x-2}^r=\displaystyle\sum_{r=0}^{2n}b_r \brak{x-3}^r $ and $ a_k =1 $ for all $k \geq  n$ then show that $ b_n = \comb{2n+1}{n+1} $ \hfill{(1992-6M)}
+	     \item If $ \sum\limits_{r=0}^{2n} a_r \brak{x-2}^r=\sum\limits_{r=0}^{2n}b_r \brak{x-3}^r $ and $ a_k =1 $ for all $k \geq  n$ then show that $ b_n = \comb{2n+1}{n+1} $ \hfill{(1992-6M)}
 
-	    \item Let $ p \leq 3 $ be an integer and $ \alpha , \beta $ be  the roots of\\ $ x^2-\brak{p+1}x+1=0 $ using mathematical induction show that $ \alpha^n  + \beta^n $\\ (i) is an integer and   
-		    (ii) is not divisible by $ p $       \hfill{(1992-6M)}
+	    \item Let $ p \leq 3 $ be an integer and $ \alpha , \beta $ be  the roots of $ x^2-\brak{p+1}x+1=0 $ using mathematical induction show that $ \alpha^n  + \beta^n $ \hfill{(1992-6M)}
+		    \begin{enumerate}[label=(\roman*)]
+
+			    \item is an integer and   
+		    \item is not divisible by $ p $ \end{enumerate}
+				    
 		    
  \end{enumerate}
     
