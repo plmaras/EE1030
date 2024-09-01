@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  31 AUG 2024 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  1 SEP 2024 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1342,7 +1342,7 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 File: ts1txr.fd 2000/12/15 v3.1
 )
 (./figs/images.tex)
-Underfull \vbox (badness 2111) has occurred while \output is active []
+Underfull \vbox (badness 1259) has occurred while \output is active []
 
  [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
 local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
@@ -1371,7 +1371,7 @@ ve/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2024
 /texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 47465 bytes).
+Output written on main.pdf (2 pages, 47475 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
