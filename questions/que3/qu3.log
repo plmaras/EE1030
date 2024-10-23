@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  9 OCT 2024 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  23 OCT 2024 23:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1961,11 +1961,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--65
 
  []
 
-<figs/Figure_1.png, id=31, 462.528pt x 346.896pt>
+<figs/Figure_1.png, id=31, 722.7pt x 433.62pt>
 File: figs/Figure_1.png Graphic file (type png)
 <use figs/Figure_1.png>
 Package pdftex.def Info: figs/Figure_1.png  used on input line 68.
-(pdftex.def)             Requested size: 218.5194pt x 163.89334pt.
+(pdftex.def)             Requested size: 218.5194pt x 131.11255pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
@@ -1985,11 +1985,11 @@ Package rerunfilecheck Info: File `qu3.out' has not changed.
 Here is how much of TeX's memory you used:
  53178 strings out of 474116
  1263941 string characters out of 5743682
- 1939187 words of memory out of 5000000
+ 1941187 words of memory out of 5000000
  74713 multiletter control sequences out of 15000+600000
  624633 words of font info for 171 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,15n,109p,1193b,904s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,15n,109p,1193b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texliv
@@ -1997,7 +1997,7 @@ e/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on qu3.pdf (2 pages, 68554 bytes).
+Output written on qu3.pdf (2 pages, 80944 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
