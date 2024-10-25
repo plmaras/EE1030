@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  25 OCT 2024 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  25 OCT 2024 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1350,28 +1350,36 @@ File: ts1txr.fd 2000/12/15 v3.1
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `Assignment_3.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `Assignment_3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Assignment_3.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  545E3181429936C441A3DEA6ECCD0327;216.
  ) 
 Here is how much of TeX's memory you used:
- 30356 strings out of 474116
- 596426 string characters out of 5743682
+ 30363 strings out of 474116
+ 596481 string characters out of 5743682
  1953187 words of memory out of 5000000
- 51996 multiletter control sequences out of 15000+600000
- 616634 words of font info for 151 fonts, out of 8000000 for 9000
+ 52000 multiletter control sequences out of 15000+600000
+ 617688 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,14n,103p,1180b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,14n,103p,1180b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texliv
-e/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/
-texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
-/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
-e1/urw/times/utmri8a.pfb>
-Output written on Assignment_3.pdf (2 pages, 46904 bytes).
+/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
+ve/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2024
+/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on Assignment_3.pdf (2 pages, 50619 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
- 63 named destinations out of 1000 (max. 500000)
+ 136 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 64 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
