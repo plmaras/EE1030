@@ -1,0 +1,174 @@
+
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\onecolumn
+\vspace{3cm}
+\title{Straight lines and Pair of Straight Lines}
+\author{Golla Shriram - AI24BTech11010}
+
+\maketitle
+%\newpage
+%\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\section{E - Subjective Problems}
+                                                                           
+ \begin{enumerate}
+		 
+	 \item A square matrix $\vec{B}$ is skew-symmetric if
+ \begin{enumerate}
+  \item $\vec{B}^{\top} = - \vec{B}$
+  \item $\vec{B}^{\top} = \vec{B}$
+  \item $\vec{B}^{-1} =  \vec{B}$
+  \item $\vec{B}^{-1} =  \vec{B}^{T}$
+ \end{enumerate}
+
+\item For a scalar function $f(x,y,z) = x^2+3y^2+3z^2$, the gradient at the point P(1, 2, -1) is
+\begin{enumerate}
+	\item $2\overrightarrow{i}+6\overrightarrow{j}+4\overrightarrow{k} $
+	\item $2\overrightarrow{i}+6\overrightarrow{j}-4\overrightarrow{k} $
+	\item $2\overrightarrow{i}+12\overrightarrow{j}+4\overrightarrow{k} $
+	\item $\sqrt{56}$
+\end{enumerate}
+
+\item The analytic function $f(z) = \frac{z-1}{z^{2}+1}$ has singularities at a
+	\begin{enumerate}
+	\item 1 and $-1$
+	\item 1 and $i$
+	\item 1 and $-i$
+	\item $i$ and $-i$
+	\end{enumerate}
+
+
+\item A thin walled cylindrical pressure vessel having a radius of 0.5 m and wall thickness of 25 mm is subjected to an internal pressure of 700 kPa. The hoop stress developed is 
+	\begin{enumerate}
+		\item 14 MPa
+		\item 1.4 MPa
+		\item 0.14 MPa
+		\item 0.014 MPa
+	\end{enumerate}		
+
+\item The modulus of rupture of concrete in terms of its characteristic cube compressive strength ($f_{ck}$) in MPa according to IS 456:2000 is
+	\begin{enumerate}
+		\item $5000f_{ck}$
+		\item $0.7f_{ck}$
+		\item $5000\sqrt{f_{ck}}$
+		\item $0.7\sqrt{f_{ck}}$
+	\end{enumerate}
+
+
+\item In the theory of plastic bending of beams, the ratio of plastic moment to yield moment is called
+	\begin{enumerate}
+		\item shape factor
+		\item plastic section modulus
+		\item modulus of resilience
+		\item rigidity modulus
+	\end{enumerate}
+
+\item For limit state of collapse, the partial saftey factors recommended by IS 456:2000 for estimating design strength of concrete and reinforcing steel are respectively
+	\begin{enumerate}
+		\item 1.15 and 1.5
+		\item 1.0 and 1.0
+		\item 1.5 and 1.15
+		\item 1.5 and 1.0
+	\end{enumerate}
+
+
+
+
+\item The point within the cross sectional plane of a beam through which the resultant of the external loading on the beam has to pass through to ensure pure bending without twisting of the cross-section of beam is called
+	\begin{enumerate}
+		\item moment centre
+		\item centroid
+		\item shear centre
+		\item elastic centre
+	\end{enumerate}
+
+\item The square root of the ratio of moment of inertia of the cross section to its cross sectional area is called
+	\begin{enumerate}
+		\item second moment of area
+		\item slenderness ratio
+		\item section modulus
+		\item radius of gyration
+	\end{enumerate}
+
+\item Deposit with flocculated structure is formed when
+	\begin{enumerate}
+		\item clay particles settle on sea bed
+		\item clay particles settle on fresh water lake bed
+		\item sand particles settle on river bed
+		\item sand particles settle on sea bed
+        \end{enumerate}
+
+\item Dilatancy correction is required when a strata is 
+	\begin{enumerate}
+		\item cohesive and saturated and also has N value of STP $>$ 15
+		\item saturated slit/fine sand and N value of SPT $<$ 10 after the overburden correction	
+		\item saturated slit/fine sand and N value of SPT $>$ 15 after the overburden correction			 \item coarse sand under dry condition and N value of SPT $<$ 10 after the overburden correction	
+	\end{enumerate}
+
+\item A precast concrete pile is driven with a 50 kN hammer falling through a height of 1.0 m with an efficiency of 0.6. The set value observed is 4 mm per blow and the combined temporary compression of the pile, cushion and the ground is 6mm. As per Modified Hiley Formula, the ultimate resistance of the pile is
+	\begin{enumerate}
+		\item 3000 kN
+		\item 4285.7 kN
+	    \item 8333 kN
+		\item 11905 kN
+	\end{enumerate}
+
+
+
+
+
+
+\end{enumerate}
+\end{document}
+
+
