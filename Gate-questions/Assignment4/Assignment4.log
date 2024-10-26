@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  26 OCT 2024 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  26 OCT 2024 13:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1405,15 +1405,16 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
-/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-]
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-[3] (./Assignment4.aux)
+ [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
+local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+] [2
+
+] (./Assignment4.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1422,9 +1423,9 @@ Package rerunfilecheck Info: File `Assignment4.out' has not changed.
 (rerunfilecheck)             Checksum: 4242136DBB89CADF0087F86D3B1DE134;216.
  ) 
 Here is how much of TeX's memory you used:
- 46899 strings out of 474116
- 1099714 string characters out of 5743682
- 1953187 words of memory out of 5000000
+ 46898 strings out of 474116
+ 1099708 string characters out of 5743682
+ 1966187 words of memory out of 5000000
  68474 multiletter control sequences out of 15000+600000
  617714 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1436,10 +1437,10 @@ ve/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2024
 /texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on Assignment4.pdf (3 pages, 48468 bytes).
+Output written on Assignment4.pdf (2 pages, 48416 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 69 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
