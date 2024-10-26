@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  25 OCT 2024 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  26 OCT 2024 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1313,61 +1313,59 @@ Package hyperref Info: Link coloring OFF on input line 47.
 
 \c@lstlisting=\count357
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-6.
+5.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-6.
+5.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-6.
+5.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-6.
+5.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-6.
+5.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
-/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
+local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-] [2] (./Assignment_3.aux)
+] [2
+
+] (./Assignment_3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-Package rerunfilecheck Warning: File `Assignment_3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Assignment_3.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  545E3181429936C441A3DEA6ECCD0327;216.
+Package rerunfilecheck Info: File `Assignment_3.out' has not changed.
+(rerunfilecheck)             Checksum: 545E3181429936C441A3DEA6ECCD0327;216.
  ) 
 Here is how much of TeX's memory you used:
- 30363 strings out of 474116
- 596481 string characters out of 5743682
- 1953187 words of memory out of 5000000
- 52000 multiletter control sequences out of 15000+600000
+ 30365 strings out of 474116
+ 596494 string characters out of 5743682
+ 1965187 words of memory out of 5000000
+ 52002 multiletter control sequences out of 15000+600000
  617688 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,14n,103p,1180b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,14n,103p,1180b,695s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
@@ -1376,10 +1374,10 @@ ve/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2024
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on Assignment_3.pdf (2 pages, 50619 bytes).
+Output written on Assignment_3.pdf (2 pages, 50948 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 140 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  64 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
