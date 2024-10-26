@@ -1,0 +1,250 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\onecolumn
+\vspace{3cm}
+\title{ 2010-CE-1-13 }
+\author{Golla Shriram - AI24BTech11010}
+
+\maketitle
+%\newpage
+%\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\section{ Q.1-Q.25 carry one mark each. }
+                                                                           
+ \begin{enumerate}
+		 
+	 \item The {lim}$_{x \rightarrow 0}$ $\frac{sin{  \sbrak{\frac{2}{3} x}}}{x}$ \hfill{(2010-CE)}
+
+\begin{enumerate}
+	\item $\frac{2}{3}$
+	\item 1
+	\item $\frac{3}{2}$
+	\item $\infty$
+
+\end{enumerate}
+
+
+\item Two coins are simultaneously tossed. The probability of two heads simultaneously appearing is \hfill{(2010-CE)}
+
+		\begin{enumerate}
+		\item $\frac{1}{8}$ 
+
+	\item $\frac{1}{6} $
+
+	\item $\frac{1}{4} $
+
+	\item $\frac{1}{2}$ 
+		\end{enumerate}
+
+\item The order and degree of the differential equation $\frac{d^{3}y}{dx^3} + 4 \sqrt{ (\frac{dy}{dx})^{3} +y^2}  =  0$ \hfill{(2010-CE)}
+
+	\begin{enumerate}
+\item 3 and 2
+\item 2 and 3
+\item 3 and 3
+\item 3 and 1
+	\end{enumerate}
+
+
+\item Two people weighing $W$ each are sitting on a plank of length $L$ floating on water at $\frac{L}{4}$ from either end. Neglecting the weight of the plank. The bending moment at the centre of the plank is \hfill{(2010-CE)}
+
+	\begin{enumerate}
+     \item $\frac{WL}{8}$
+\item $\frac{WL}{16}$
+\item $\frac{WL}{32}$
+\item zero
+	\end{enumerate}
+
+\item For the truss shown in figure, the force in member QR is  \hfill{(2010-CE)}
+\begin{figure}[!ht]
+
+
+\centering
+\resizebox{8 cm}{ 5 cm}{
+\begin{circuitikz}
+
+\tikzstyle{every node}=[font=\small]
+\draw (4.5,10.75) to[short, -o] (2,10.75) ;
+\draw (4.5,12.75) to[short, -o] (2,12.75) ;
+\draw [->, >=Stealth] (4.5,12.75) -- (4.5,9.75);
+\draw [->, >=Stealth] (3,10.5) -- (2.25,10.5);
+\draw [->, >=Stealth] (3.75,10.5) -- (4.5,10.5);
+\node [font=\normalsize] at (2,13.25) {Q};
+\node [font=\normalsize] at (4.75,11) {S};
+\node [font=\normalsize] at (4.75,12.75) {R};
+\node [font=\normalsize] at (5,10) {P};
+\node [font=\normalsize] at (2,10.25) {T};
+\node [font=\normalsize] at (3.5,10.5) {L};
+\node [font=\normalsize] at (5.5,11.75) {L};
+\draw [short] (5.25,12.75) -- (5.75,12.75);
+\draw [short] (5.25,10.75) -- (5.75,10.75);
+\draw [->, >=Stealth] (5.5,12) -- (5.5,12.75);
+\draw [->, >=Stealth] (5.5,11.5) .. controls (5.5,11.75) and (5.5,11.25) .. (5.5,10.75) ;
+\draw [short] (2,10.75) -- (4.5,12.75);
+\draw [short] (1.25,13.25) .. controls (1.25,12.5) and (1.25,12.75) .. (1.25,12.25);
+\draw [short] (1.25,13.25) -- (2,12.75);
+\draw [short] (1.25,12.25) -- (2,12.75);
+\draw [short] (1.25,10.75) -- (1,10.5);
+\draw [short] (1.25,13.25) -- (1,13);
+\draw [short] (1.25,11.25) -- (1,11);
+\draw [short] (1.25,13) -- (1,12.75);
+\draw [short] (1.25,12.75) -- (1,12.5);
+\draw [short] (1.25,12.5) -- (1,12.25);
+\draw [short] (2,10.75) -- (1.25,11.25);
+\draw [short] (1.25,11.25) -- (1.25,10.25);
+\draw [short] (1.25,10.25) -- (2,10.75);
+\draw [short] (1,10.75) -- (1.25,11);
+
+\draw [short] (1.25,10.5) -- (1,10.25);
+\end{circuitikz}
+}
+\end{figure}
+     
+
+		 \begin{enumerate}
+	\item zero
+	\item $\frac{P}{\sqrt{2}}$
+	\item $P$
+	\item $\sqrt{2}P$
+
+\end{enumerate}
+
+\item The major and minor principal stresses at a point 3 MPa and -3 MPa respectively. The maximum shear stress at the point is \hfill{(2010-CE)}
+
+\begin{enumerate}
+	\item zero
+		\item 3 MPa
+		\item 6 MPa
+		\item 9 MPa
+\end{enumerate}
+	
+\item The number of independent elastic constants for a linear elastic isotropic and homogeneous material is \hfill{(2010-CE)}
+
+\begin{enumerate}
+	\item 4
+	\item 3
+	\item 2
+	\item 1
+\end{enumerate}
+			 
+\item The effective length of a column of length L fixed against rotation and translation at one end and free at the other end is \hfill{(2010-CE)}
+
+\begin{enumerate}
+	\item 0.5 L
+\item 0.7 L
+\item 1.414 L
+\item 2 L
+
+\end{enumerate}
+
+\item As per Indian standard code for practice for prestressed concrete (IS:1343-1980) the minimum grades of concerte to be used for post-tensioned and pre-tensioned structural elements are respectively \hfill{(2010-CE)}
+
+\begin{enumerate}
+\item M20 for both
+ \item M40 and M30
+ \item M15 and M20
+ \item M30 and M40
+\end{enumerate}
+
+
+\item A solid circular shaft of diameter $d$ and length $L$ is fixed at one end and free at the other end. A torque $T$ is applied at the free end. The shear modulus of the material is $G$. The angle of twist at the free end is \hfill{(2010-CE)}
+
+\begin{enumerate}
+				\item $\frac{16TL}{\pi d^{4} G}$
+
+\item $\frac{32TL}{\pi d^{4} G}$
+
+\item $\frac{64TL}{\pi d^{4} G}$
+
+\item $\frac{128TL}{\pi d^{4} G}$
+
+\end{enumerate}
+	
+\item  In a compaction test, $G, w, S$ and $e$ represent the specific gravity, water content, degree of saturation and void ratio of the soil sample, respectively. If $\gamma_{w}$ represents the unit weight of water and $\gamma_{d}$ represents the dry unit weight of the soil, the equation for zero air voids line is \hfill{(2010-CE)}
+
+\begin{enumerate}
+    \item $\gamma_{d} = \frac{G \gamma_{w}}{1+Se}     $
+
+\item $\gamma_{d} = \frac{G \gamma_{w}}{1+Gw}     $
+
+\item $\gamma_{d} = \frac{Gw} {1+S\gamma_{w}}     $
+
+\item $\gamma_{d} = \frac{Gw}{1+Se}     $
+
+\end{enumerate}
+	
+
+\item A fine grained soil has liquid limit of 60 and plastic limit of 20. As per the plasticity chart, according to IS classification, the soil is represented by the letter symbols\hfill{(2010-CE)}
+
+\begin{enumerate}
+	\item CL
+	\item CI
+	\item CH
+	\item CL-ML
+
+\end{enumerate}
+\item Quick sand condition occurs when	\hfill{(2010-CE)}
+	\begin{enumerate}
+		\item the void ratio of the soil becomes 1.0
+		\item the upward seepage pressure in soil becomes zero
+		\item the upward seepage pressure in soil becomes equal to the saturated unit weight of the soil	
+		\item the upward seepage pressure in soil becomes equal to the submerged unit weightof the soil
+	\end{enumerate}
+
+\end{enumerate}
+\end{document}
+
+
+
