@@ -1,0 +1,242 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\onecolumn
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+\title{ 2012-ME-1-13 }
+\author{Golla Shriram - AI24BTech11010}
+
+\maketitle
+%\newpage
+%\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\section{ Q.1-Q.25 carry one mark each. }
+                                                                           
+ \begin{enumerate}
+		 
+	 \item In abrasive jet machining, as the distance between the nozzle tip and the work surface increases, the material removal rate \hfill{(2012-ME)}
+	 
+\begin{enumerate}
+    \begin{multicols}{1} 
+        \item increases continuously   
+	\item decreases continuously
+        \item decreases, becomes stable and then increases
+	\item increases, becomes stable and then decreases
+	\end{multicols}
+\end{enumerate}
+
+
+\item Match the following metal forming processes with their associated stresses in the workpiece \hfill{(2012-ME)}
+\[
+\begin{array}{|c|c|c|}
+\hline
+\text{\textbf{Metal Forming Process}} & \text{\textbf{Type of Stress}} \\
+\hline
+ \text{ 1.   Coining} & S. \  \text{Compressive} \\
+  \text{2.   Wire Drawing} & P.  \ \text{Tensile} \\
+ \text{3.   Blanking} & Q. \   \text{Shear} \\
+ \text{4.   Deep Drawing} & R. \  \text{Tensile and Compressive} \\
+\hline
+\end{array}
+\]
+
+
+	\begin{enumerate}
+		    \begin{multicols}{2} 
+	\item 1-S, 2-P, 3-Q, 4-R
+	\item 1-S, 2-P, 3-R, 4-Q
+	\item 1-P, 2-Q, 3-S, 4-R
+	\item 1-P, 2-R, 3-Q, 4-S
+\end{multicols}  
+\end{enumerate}
+
+\item In an interchangeable assembly, shafts of size ${25.000}^{\begin{matrix} +0.040 \\ -0.010 \end{matrix}} mm$ mate with holes of size ${25.000}^{\begin{matrix}    +0.030 \\ +0.020 \end{matrix}} mm$. The maximum interference (in $micron$s) in the assembly is \hfill{(2012-ME)} 
+                 \begin{enumerate}   
+                     \begin{multicols}{4} 
+\item 40
+\item 30
+\item 20
+\item 10
+
+		     \end{multicols}                            
+                         \end{enumerate}
+
+
+
+
+
+\item During $normalizing$ process of steel, the specimen is heated \hfill{(2012-ME)}
+\begin{enumerate}
+\item  between the upper and lower critical temperature and cooled in still air.
+\item  above the upper critical temperature and cooled in furnace.
+\item  above the upper critical temperature and cooled in still air
+\item  between the upper and lower critical temperature and cooled in furnace.
+\end{enumerate}
+
+\item Oil flows through a 200 $mm$ diameter horizontal cast iron pipe (friction factor, $f$ = 0.0225) of length 500 m. The volumetric flow rate is 0.2 $m^3/s$. The head loss (in $m$) due to friction is (assume $g$ = 9.81 $m/s^2$)\hfill{(2012-ME)}
+\begin{enumerate}
+\begin{multicols}{4} 
+\item 116.18
+\item 0.116
+\item 18.22
+\item 232.36
+\end{multicols}  
+\end{enumerate}
+
+
+\item For an opaque surface, the absorptivity($\alpha$), transmissivity($\tau$) and reflectivity($\rho$)are related by the equation \hfill{(2012-ME)} 
+                 \begin{enumerate}   
+                     \begin{multicols}{4}       
+\item $\rho + \alpha = \tau $
+\item $\rho + \alpha + \tau = 0$
+\item $\rho + \alpha = 1$
+\item $\rho + \alpha = 0$
+
+		     \end{multicols}                            
+                         \end{enumerate}
+
+
+\item Steam enters an adiabatic turbine operating at steady state with an enthalpy of 3251.0 $kJ/kg$ and leaves as a saturated mixture at 15 $k$Pa with quality (dryness fraction) 0.9. The enthalpies of the saturated liquid and vapor at 15 $k$Pa are $h_f$ = 225.94 $kJ/kg$ and $h_g$ = 2598.3 $kJ/kg$ respectively. The mass flow rate of steam is 10 $kg/s$. Kinetic and potential energy changes are negligible. The power output of the turbine in $MW$ is \hfill{(2012-ME)} 
+  \begin{enumerate}   
+ \begin{multicols}{4}          
+\item 6.5
+\item 8.9
+\item 9.1
+\item 27.0
+\end{multicols}                            
+   \end{enumerate}
+
+
+\item The following are the data for two crossed helical gears used for speed reduction:\\
+Gear I : Pitch circle diameter in the plane of rotation 80 $mm$ and helix angle 30\degree \\
+Gear II : Pitch circle diameter in the plane of rotation 120 $mm$ and helix angle 22.5\degree \\
+If the input speed is 1440 rpm, the output speed in rpm is \hfill{(2012-ME)} 
+                 \begin{enumerate}   
+ \begin{multicols}{4}                      
+\item 1200
+\item 900
+\item 875
+\item 720
+\end{multicols}      \end{enumerate}
+
+
+\item A solid disc of radius $r$ rolls without slipping on a horizontal floor with angular velocity $\omega$ and
+angular acceleration $\alpha$. The magnitude of the acceleration of the point of contact on the disc is \hfill{(2012-ME)} 
+                 \begin{enumerate}   
+                     \begin{multicols}{4}    
+\item $zero$
+\item $r\alpha$
+\item $\sqrt{(r\alpha)^{2}+(r(\omega)^{2})^{2}}$
+\item $r{\omega}^2$
+		     \end{multicols}                            
+                         \end{enumerate}
+
+
+
+\item A thin walled spherical shell is subjected to an internal pressure. If the radius of the shell is increased by $1\%$ and the thickness is reduced by $1\%$, with the internal pressure remaining the same, the percentage change in the circumferential (hoop) stress is \hfill{(2012-ME)} 
+  \begin{enumerate} 
+\begin{multicols}{4}            
+   \item 0
+  \item 1
+ \item 1.08
+   \item 2.02
+\end{multicols}       
+  \end{enumerate}
+
+
+\item The area enclosed between the straight line $y = x$ and the parabola $y = x^{2}$ in the x-y plane is \hfill{(2012-ME)} 
+                 \begin{enumerate}   
+                     \begin{multicols}{4}           
+
+\item $\frac{1}{6}$
+\item $\frac{1}{4}$
+\item $\frac{1}{3}$
+\item $\frac{1}{2}$
+		     \end{multicols}                            
+                         \end{enumerate}
+
+
+
+\item Consider the function $f(x)=|x|$ in the interval $-1\leq x \geq 1$. At the point $x = 0, f(x)$ is \hfill{(2012-ME)} 
+                 \begin{enumerate}   
+                     \begin{multicols}{2}                                  
+		     		     \item  continuous and differentiable. 
+		     \item  non-continuous and differentiable. 
+		     \item  continuous and non-differentiable. 
+		     \item   neither continuous nor differentiable.
+		     \end{multicols}
+		     \end{enumerate}
+
+\item Which one of the following is \textbf{NOT} a decision taken during the aggregate production planning stage? \hfill{(2012-ME)} 
+                 \begin{enumerate}   
+                     \begin{multicols}{2}
+		     \item  Scheduling of machines 
+		     \item  Amount of labour to be committed
+		     \item  Rate at which production should happen
+		     \item  Inventory to be carried forward
+		     \end{multicols}                            
+                         \end{enumerate}
+
+
+
+
+
+
+
+
+\end{enumerate}
+
+\end{document}
+
