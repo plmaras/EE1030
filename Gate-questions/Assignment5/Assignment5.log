@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  27 OCT 2024 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.30)  27 OCT 2024 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1484,7 +1484,7 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 8
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 1803) in paragraph at lines 105--107
+Underfull \hbox (badness 1803) in paragraph at lines 110--112
 []\OT1/txr/m/n/12 In an in-ter-change-able as-sem-bly, shafts of size $[][]\OML
 /txmi/m/it/12 mm$ \OT1/txr/m/n/12 mate with holes of size
  []
@@ -1504,12 +1504,12 @@ Package rerunfilecheck Info: File `Assignment5.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  46850 strings out of 474116
- 1096930 string characters out of 5743682
- 1952187 words of memory out of 5000000
+ 1096934 string characters out of 5743682
+ 1951187 words of memory out of 5000000
  68424 multiletter control sequences out of 15000+600000
  616690 words of font info for 152 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 84i,8n,95p,1179b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,7n,95p,1179b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
@@ -1518,7 +1518,7 @@ ve/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2024
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on Assignment5.pdf (2 pages, 61325 bytes).
+Output written on Assignment5.pdf (2 pages, 60515 bytes).
 PDF statistics:
  146 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
