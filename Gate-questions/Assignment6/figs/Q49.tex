@@ -1,0 +1,64 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Huge]
+
+\draw (8.25,10) to[european resistor] (10.5,10);
+\draw (8.25,7.5) to[european resistor] (8.25,5.75);
+\draw (1.75,7.45) to[european resistor] (4,7.49);
+\draw (1.75,8.55) to[european resistor] (4,8.5);
+\draw (1.75,8.75) to[european resistor] (1.75,7.25);
+\draw (3.25,5.75) node[op amp](opamp1){};
+\draw (opamp1.-) to[short] (1.75,6.25);
+\draw (4.45,5.75) to[short](4.75,5.75);
+\node at (1.75,10.5) [circ] {};
+
+
+
+\draw (3.25,10) node[op amp,scale=1, yscale=-1 ] (opamp2) {};
+\draw (opamp2.+) to[short] (1.75,10.5);
+\draw (opamp2.-) to[short] (1.75,9.5);
+\draw (4.45,10) to[short](4.75,10);
+
+
+\draw (9.5,8) node[op amp ] (opamp3) {\text{}};
+\draw (opamp3.-) to[short] (8,8.5);
+\draw (opamp3.+) to[short] (8,7.5);
+\draw (10.7,8) to[short](11,8);
+
+
+\draw (6.25,8.5) to[european resistor] (8.25,8.5);
+\draw (5.75,7.5) to[european resistor] (8.25,7.5);
+\draw (1.75,9.5) to[short] (1.75,8.75);
+\draw (1.75,6.25) to[short] (1.75,7.25);
+\draw (3.5,8.5) to[short] (6.25,8.5);
+\draw (3.75,7.5) to[short] (6,7.5);
+\draw (8.25,5.75) to (8.25,5.5) node[ground]{};
+\draw (4.75,10) to[short] (4.75,8.5);
+\draw (4.75,7.5) to[short] (4.75,5.75);
+\draw (8.25,8.5) to[short] (8.25,10);
+\draw (10.5,8) to[short] (10.5,10);
+\node at (11,8) [circ] {};
+\node at (2,5.25) [circ] {};
+\node [font=\normalsize] at (1.5,10.75) {$V_{2}$};
+\node [font=\normalsize] at (1.25,5.5) {$V_{1}$};
+\node [font=\normalsize] at (1.25,8) {2R};
+\node [font=\normalsize] at (3.25,9) {R};
+\node [font=\small] at (11.25,8) {$V_{0}$};
+\node [font=\normalsize] at (9.25,10.5) {R};
+\node [font=\normalsize] at (7.5,7) {R};
+\node [font=\normalsize] at (7.25,9) {R};
+\node [font=\normalsize] at (3,7) {R};
+\node [font=\normalsize] at (8.75,6.5) {R};
+\end{circuitikz}
+}%
+
+
+
+\end{document}

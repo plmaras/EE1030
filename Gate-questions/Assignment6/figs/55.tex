@@ -1,0 +1,44 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+\centering
+\resizebox{0.8\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+\draw [->, >=Stealth] (3.75,4.25) -- (3.75,12);
+\draw [->, >=Stealth] (3.75,4.25) -- (23.75,4.25);
+\draw [->, >=Stealth] (20,3.5) -- (20.75,3.5);
+\draw [->, >=Stealth] (3,9.75) -- (3,10.5);
+\node [font=\LARGE] at (24,3.5) {$\omega$ rads/s};
+\node [font=\large] at (2.5,8.5) {db};
+\draw [line width=1pt, short] (3.75,10.25) -- (5.75,8.5);
+\draw [line width=1pt, short] (5.75,8.5) -- (8.25,8.5);
+\draw [line width=1pt, short] (8.25,8.5) -- (10.75,10.25);
+\draw [line width=1pt, short] (10.75,10.25) -- (16.5,10.25);
+\draw [line width=1pt, short] (16.5,10.25) -- (18.5,8.75);
+\draw [line width=1pt, short] (18.5,8.75) -- (20.5,6.25);
+\draw [line width=0.5pt, dashed] (5.75,8.5) -- (5.75,4.25);
+\draw [line width=0.5pt, dashed] (8.25,8.5) -- (8.25,4.25);
+\draw [line width=0.5pt, dashed] (5.75,8.5) -- (10.75,4.25);
+\draw [line width=0.5pt, dashed] (10.75,10.25) -- (10.75,4.25);
+\draw [line width=0.5pt, dashed] (16.5,10.25) -- (16.5,4.25);
+\draw [line width=0.5pt, dashed] (18.5,8.75) -- (18.5,4.5);
+\draw [line width=0.5pt, dashed] (18.5,8.75) -- (21.25,7);
+\node [font=\Large] at (4.5,3.75) {0.01};
+\node [font=\Large] at (5.75,3.75) {2};
+\node [font=\Large] at (8.25,3.75) {4};
+\node [font=\Large] at (10.75,3.75) {8};
+\node [font=\large] at (7,8.75) {0db/Octave};
+\node [font=\Large] at (18.5,3.75) {36};
+\node [font=\large] at (14,10.75) {0db/Octave};
+\node [font=\large] at (5.75,10.25) {-6db/Octave};
+\node [font=\large] at (9.25,10.25) {6db/Octave};
+\node [font=\Large] at (16.25,3.75) {24};
+\node [font=\large] at (18.5,10.25) {-6db/Octave};
+\node [font=\large] at (20,5.75) {-12db/Octave};
+\node [font=\Large] at (3.25,4.5) {0};
+\end{circuitikz}
+}%
+\end{document}

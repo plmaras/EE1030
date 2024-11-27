@@ -1,0 +1,105 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+\begin{document}
+
+\centering
+\resizebox{0.65\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+
+
+
+\draw [ line width=0.8pt ] (14.75,23.75) rectangle (21.5,13);
+\draw [ line width=0.8pt ] (25,23) rectangle (32.5,19.75);
+\draw [ line width=0.8pt ] (26.25,17) rectangle (31.25,15.5);
+\node [font=\LARGE] at (34.5,27.5) {AD};
+\node [font=\LARGE] at (35,25.5) {BDB};
+\node [font=\huge] at (28.5,21.5) {Output Port};
+\node [font=\LARGE] at (29,15) {Output Device};
+\node [font=\huge] at (17.5,24.5) {3Lx8L Decoder};
+\node [font=\LARGE] at (15.5,23) {$I_2$};
+\node [font=\LARGE] at (15.5,22) {$I_1$};
+\node [font=\LARGE] at (15.5,20.5) {$I_0$};
+\node [font=\LARGE] at (15.5,17.5) {$E_1$};
+\node [font=\LARGE] at (15.5,15) {$\overline{E_2}$};
+\node [font=\LARGE] at (21,22.25) {1};
+\node [font=\LARGE] at (21,21) {2};
+\node [font=\LARGE] at (21,19.75) {3};
+\node [font=\LARGE] at (21,18.5) {4};
+\node [font=\LARGE] at (21,17.25) {5};
+\node [font=\LARGE] at (21,15.75) {6};
+\draw [ line width=1.2pt](8.25,27.5) to[short] (8.25,17.25);
+\node at (21.75,23.25) [ocirc, scale= 4] {};
+\node at (21.75,22.25) [ocirc, scale= 4] {};
+\node at (21.75,19.75) [ocirc, scale= 4] {};
+\node at (21.75,18.5) [ocirc, scale= 4] {};
+\node at (21.75,15.75) [ocirc, scale= 4] {};
+\node at (21.75,17.25) [ocirc, scale= 4] {};
+\node at (21.75,21) [ocirc, scale= 4] {};
+\draw [ line width=1.4pt](28.75,19.75) to[multiwire] (28.75,17.25);
+\draw [line width=1.2pt, short] (28.75,17.25) -- (28.5,17.75);
+\draw [line width=1.2pt, short] (28.75,17.25) -- (29,17.75);
+\draw [ line width=1pt](7.5,25.5) to[short] (29.5,25.5);
+\draw [ line width=1.3pt](31,11.25) to[multiwire] (34.25,11.25);
+\draw [ line width=1.3pt](8,11.25) to[short] (31,11.25);
+\draw [ line width=1.4pt](28.75,25.5) to[multiwire] (28.75,23);
+\draw [line width=1.2pt, short] (28.75,23) -- (28.5,23.5);
+\draw [line width=1.2pt, short] (28.75,23) -- (29,23.5);
+\draw [ line width=1.5pt](7.75,27.5) to[short] (34,27.5);
+\node [font=\LARGE] at (21,14.25) {7};
+\node at (21.75,14.25) [ocirc, scale= 4] {};
+\node [font=\LARGE] at (21,23.25) {0};
+\node [font=\LARGE] at (7.25,18.75) {$A_{11}$};
+\node [font=\LARGE] at (10.25,19) {$A_{12}$};
+\node [font=\LARGE] at (10.5,20.5) {$A_{13}$};
+\node [font=\LARGE] at (12,22.5) {$A_{14}$};
+\node [font=\LARGE] at (13,23.75) {$A_{15}$};
+\node [font=\LARGE] at (6,12.25) {IO/ $\overline{M}$};
+\draw [ line width=1pt](22,21) to[short] (23,21);
+\draw [ line width=1pt](23,21) to[short] (23,22);
+\draw [ line width=1pt](23,22) to[short] (24.5,22);
+\node at (24.75,22) [ocirc, scale= 4] {};
+\draw [ line width=1pt](11.25,13.5) to[short] (11.25,11.25);
+\draw [ line width=1pt](11.25,13.5) to[short] (14.25,13.5);
+\node at (14.5,13.5) [ocirc, scale= 4] {};
+\node at (14.5,14.75) [ocirc, scale= 4] {};
+\draw [ line width=1pt](12.25,27.5) to[short] (12.25,23);
+\draw [ line width=1pt](12.25,23) to[short] (14.75,23);
+\draw [ line width=1pt](11.25,27.5) to[short] (11.25,22);
+\draw [ line width=1pt](11.25,22) to[short] (14.75,22);
+\draw [ line width=1pt](10.5,27.5) to[short] (10.5,21);
+\draw [ line width=1pt](10.5,21) to[short] (14.75,21);
+\draw [ line width=1pt](8.5,11.25) to[short] (8.5,14.75);
+\draw [ line width=1pt](9.5,27.5) to[short] (9.5,18.25);
+\draw [ line width=1pt](8.5,14.75) to[short] (14.25,14.75);
+\node [font=\LARGE] at (15.5,13.75) {$\overline{E_3}$};
+\node [font=\LARGE] at (30.25,26.25) {8};
+\node [font=\LARGE] at (14,12.25) {$\overline{WR}$};
+\node [font=\LARGE] at (30,24.5) {8};
+\node [font=\LARGE] at (29.5,18.5) {8};
+\node [font=\LARGE] at (35,11.25) {BCB};
+\draw [line width=1.3pt, short] (34,27.5) -- (33,27.75);
+\draw [line width=1.2pt, short] (34,27.5) -- (33,27.25);
+\draw [line width=1.7pt, short] (7.5,25.5) -- (30.5,25.5);
+\draw [line width=1.3pt, short] (34.25,11.25) -- (33.5,11.5);
+\draw [line width=1.2pt, short] (34.25,11.25) -- (33.5,11);
+\draw [line width=1.3pt, short] (31.25,25.25) -- (30.5,25.5);
+\draw [line width=1.2pt, short] (31.25,25.75) -- (30.5,25.5);
+\draw [line width=1.3pt, short] (34,25.5) -- (33,25.75);
+\draw [line width=1.2pt, short] (34,25.5) -- (33.25,25.25);
+\draw [line width=1.3pt, short] (31.5,11) -- (30.75,11.25);
+\draw [line width=1.2pt, short] (31.5,11.5) -- (30.75,11.25);
+\draw [ line width=1.3pt](30.25,25.5) to[multiwire] (34,25.5);
+
+\draw (10.75,18.25) node[ieeestd and port, anchor=in 1, scale=1.8](port){} (port.out) to[short] (14.75,17.75);
+\node at (10.5,17.25) [ocirc, scale= 4] {};
+\draw [ line width=1.3pt](9.5,18.25) to[short] (10.75,18.25);
+\draw [ line width=1.3pt](8.25,17.25) to[short] (10.25,17.25) ;
+\end{circuitikz}
+}
+
+
+
+\end{document}

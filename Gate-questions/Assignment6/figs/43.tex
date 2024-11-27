@@ -1,0 +1,40 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+
+
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [ line width=2pt](1.75,10.75) to[short] (1.75,8.5);
+\draw [ line width=1.6pt](0.25,9.5) to[short] (8,9.5);
+
+\draw[ ultra thick ] (2.21,9.3) -- (2.3,9.25) -- (2.21,9.2) -- cycle;
+\draw [ line width=2pt](5,10.75) to[short] (5,8.5);
+\draw [ line width=2pt](7.5,10.75) to[short] (7.5,8.5);
+\draw [ line width=0.8pt](5,8.75) to[short] (5.5,8.75);
+\draw [ line width=1.2pt](1.75,8.75) to[short] (2.25,8.75);
+\draw [line width=1.2pt, ->, >=Stealth] (8,9.5) -- (8,7.75);
+
+\draw[ ultra thick ] (5.51,9.3) -- (5.6,9.25) -- (5.51,9.2) -- cycle;
+\node [font=\large] at (2.75,9) {$R_A$};
+\node [font=\large] at (6,9) {$R_B$};
+\draw [line width=1.2pt, ->, >=Stealth] (2.25,8.75) -- (2.25,7.75);
+\draw [line width=1.2pt, ->, >=Stealth] (5.5,8.75) -- (5.5,7.75);
+\node [font=\Large] at (1.75,11.25) {A};
+\node [font=\Large] at (5,11.25) {B};
+\node [font=\Large] at (7.5,11.25) {C};
+\node [font=\large] at (2.75,7.25) {\text{300A}};
+\node [font=\large] at (5.75,7.25) {\text{200A}};
+\node [font=\large] at (8.25,7.25) {\text{100A}};
+\draw [ line width=1pt](-0.5,9.5) to[sinusoidal voltage source, sources/symbol/rotate=auto] (0.25,9.5);
+\end{circuitikz}
+}%
+
+
+
+
+\end{document}

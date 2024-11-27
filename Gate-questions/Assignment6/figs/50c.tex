@@ -1,0 +1,53 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\centering
+\resizebox{0.4\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+
+\draw (7.75,15.5) to[short] (8,15.5);
+\draw (7.75,15) to[short] (8,15);
+\draw (8,15.5) node[ieeestd nand port, anchor=in 1, scale=0.89](port){} (port.out) to[short] (9.75,15.25);
+\draw (7.75,13.75) to[short] (8,13.75);
+\draw (7.75,13.25) to[short] (8,13.25);
+\draw (8,13.75) node[ieeestd nand port, anchor=in 1, scale=0.89](port){} (port.out) to[short] (9.75,13.5);
+\draw (10.5,15.25) to[short] (10.75,15.25);
+\draw (10.5,14.75) to[short] (10.75,14.75);
+\draw (10.57,15.25) node[ieeestd and port, anchor=in 1, scale=0.89](port){} (port.out) to[short] (12.3,15);
+\draw (9.75,15.25) to[short] (10.5,15.25);
+\draw (12.5,15) to[short] (12.5,13.5);
+\draw (7.75,15.5) to[short] (7.75,15);
+\draw (7.75,13.75) to[short] (7.75,13.25);
+\draw (9.75,13.5) to[short] (10.5,13.5);
+\draw (10.5,13.5) to[short] (10.5,14.75);
+\draw (12,13) to[short] (12.75,13);
+\draw (7.75,15.25) to[short] (7,15.25);
+\draw (7.75,13.5) to[short] (7,13.5);
+\draw (7.75,13.25) to[short] (7.75,12);
+\draw (7.75,12) to[short] (9.5,12);
+\draw (7.5,11.5) to[short] (9.25,11.5);
+\draw (9.25,12) to[short] (9.75,12);
+\draw (9.25,11.5) to[short] (9.75,11.5);
+\draw (9.75,12) node[ieeestd and port, anchor=in 1, scale=0.89](port){} (port.out) to[short] (12,11.75);
+\draw (12.5,13.5) to[short] (12.75,13.5);
+\draw (12.5,13) to[short] (12.75,13);
+\draw (12.75,13.5) node[ieeestd or port, anchor=in 1, scale=0.89](port){} (port.out) to[short] (14.5,13.25);
+\draw [line width=0.7pt, short] (12,11.75) -- (12,13);
+\node at (14.65,13.25) [circ] {};
+
+
+
+
+\node [font=\large] at (6.75,15.25) {A};
+\node [font=\large] at (7,11.5) {B};
+\node [font=\large] at (6.75,13.5) {C};
+\end{circuitikz}
+}%
+
+
+
+\end{document}

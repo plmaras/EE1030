@@ -1,0 +1,40 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\centering
+\resizebox{0.6\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw [->, >=Stealth,line width=1.5pt] (6,19) -- (6,26.5);
+\draw [->, >=Stealth,line width=1.5pt] (6,19) -- (26.25,19);
+\draw [line width=1.5pt, short] (6,19.25) -- (6,24);
+\draw [line width=3pt, short] (6,24) -- (10.5,24);
+\draw [line width=3pt, short] (10.5,24) -- (10.5,19);
+\draw [line width=3pt, short] (6,24) -- (6,19);
+\draw [line width=3pt, short] (24,24) -- (25.75,24);
+\draw [line width=3pt, short] (19.5,19) -- (24,19);
+\draw [line width=3pt, short] (10.5,19) -- (15,19);
+\draw [line width=3pt, short] (15,24) -- (19.5,24);
+\draw [line width=3pt, short] (24,24) -- (24,19);
+\draw [line width=3pt, short] (19.5,24) -- (19.5,19);
+\draw [line width=3pt, short] (15,24) -- (15,19);
+\draw (6,19) to[line width=1.5pt ] (6,18.25);
+\node [font=\Large] at (6.25,18.5) {0};
+\node [font=\Large] at (10.5,18.5) {0.05};
+\node [font=\Large] at (15,18.5) {0.1};
+\node [font=\Large] at (24,18.5) {0.2};
+\node [font=\Large] at (25.5,18.5) {t(m/s)};
+\node [font=\large] at (5,26.25) {$V_D$};
+\node [font=\Large] at (19.5,18.5) {0.15};
+\node [font=\Large] at (5.25,24.25) {$100V $};
+\end{circuitikz}
+}%
+\label{Figure(ii)}
+
+
+
+
+\end{document}

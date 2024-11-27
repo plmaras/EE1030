@@ -1,0 +1,239 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{multicol}
+%\usepackage{multicol}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{standalone}
+
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\onecolumn
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+\title{ 2014-EE-1-13 }
+\author{Golla Shriram - AI24BTech11010}
+
+\maketitle
+%\newpage
+%\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+                                                                           
+ \begin{enumerate}[start=53]
+		 
+	 \item The overcurrent relays for the line protection and loads connected at the buses are shown in the figure \hfill{(2014-EE)}
+     \begin{center}
+\input{figs/43.tex}
+\end{center}
+
+
+	 
+The relays are IDMT in nature having the characteristic
+$$  t_{op} = \frac{0.14 * Time Multiplier Setting}{\brak{Plug Setting Multiplier}^{0.02}-1}        $$
+The maximum and minimum fault currents at bus B are 2000 A and 500 A respectively. Assuming
+the time multiplier setting and plug setting for relay RB to be 0.1 and 5A respectively, the operating
+time of RB  (in seconds) is \underline{\hspace{2.5 cm}}.
+
+\item For the given system, it is desired that the system be stable. The minimum value of $\alpha$ for this
+condition is \underline{\hspace{2.5 cm}}. \hfill{(2014-EE)}
+
+\begin{center}
+\input{figs/54.tex}
+\end{center}
+
+
+
+
+\item The Bode magnitude plot of the transfer function $G(s) =\frac{K\brak{1+0.5s}\brak{1+\alpha s} }{s\brak{1+\frac{s}{8}}\brak{1+bs}\brak{1+\frac{s}{36}} }$ is shown below:
+Note that -6 dB/octave $=$ - 20 dB/decade. The value of $\frac{a}{bK}$ \underline{\hspace{2.5 cm}}.  \hfill{(2014-EE)} 
+
+
+\begin{center}
+\input{figs/55.tex}
+\end{center}
+
+
+\item A system matrix is given as follows.
+
+
+$$ A =    \begin{bmatrix}
+    0     & 1  & -1 \\
+    -6    &  -11 & 6 \\
+  -6     &  -11 & 5
+\end{bmatrix}$$
+
+The absolute value  of the ratio of the maximum eigenvalue to the minimum eigenvalue is \underline{\hspace{2.5 cm}}.  \hfill{(2014-EE)}
+
+\item The reading of the voltmeter (rms) in volts, for the circuit shown in the figure is \underline{\hspace{2.5 cm}}  \hfill{(2014-EE)}
+
+
+\begin{center}
+\input{figs/57.tex}
+\end{center}
+
+
+
+
+\item The dc current flowing in a circuit is measured by two ammeters, one PMMC and another
+electrodynamometer type, connected in series. The PMMC meter contains 100 turns in the coil, the
+flux density in the air gap is 0.2 $Wb/m^2$, and the area of the coil is 80 $mm^2$. The electrodynamometer
+ammeter has a change in mutual inductance with respect to deflection of 0.5 mH/deg. The spring
+constants of both the meters are equal. The value of current, at which the deflections of the two
+meters are same, is \underline{\hspace{2.5 cm}}.  \hfill{(2014-EE)}
+\\
+
+\item Given that the op-amps in the figure are ideal, the output voltage $V_0$ is 
+\begin{center}
+\input{figs/Q49.tex}
+\end{center}
+	\begin{enumerate}
+		    \begin{multicols}{2} 
+	\item $\brak{V_1-V_2}$
+	\item   $\brak{V_1-V_2} /2$
+	\item  $2\brak{V_1-V_2}$
+	\item   $\brak{V_1+V_2}$
+\end{multicols}  
+\end{enumerate}
+\item Which of the following logic circuits is a realization of the function F whose Karnaugh map is
+shown in figure \hfill{(2014-EE)}
+
+\begin{center}
+\input{figs/50.tex}
+\end{center}
+
+\begin{enumerate}
+       \begin{multicols}{2} 
+\item    \input{figs/50a.tex}
+
+
+\item    \input{figs/50b.tex}
+
+\item  \input{figs/50c.tex}
+
+\item    \input{figs/50d.tex}
+\end{multicols}  
+\end{enumerate}
+
+
+
+\item In the figure shown, assume the op-amp to be ideal. Which of the alternatives gives the correct Bode plots for the transfer function $\frac{V_0 \brak{\omega}}{V_i\brak{\omega}}$\hfill{(2014-EE)} 
+
+
+\input{figs/51.tex}
+
+\begin{enumerate}
+   
+\item    \input{figs/51a.tex}
+
+\item    \input{figs/51b.tex}
+
+
+\item  \input{figs/51c.tex}
+
+
+\item    \input{figs/51d.tex}
+\end{enumerate}
+\item An output device is interfaced with 8-bit microprocessor 8085A. The interfacing circuit is shown in
+figure 
+
+
+\begin{center}
+\input{figs/52.tex}
+\end{center}
+
+
+The interfacing circuit makes use of 3 Line to 8 Line decoder having 3 enable lines $E_1$, $\overline{E_2}$, $\overline{E_3}$. The
+address of the device is\hfill{(2014-EE)} 
+
+	\begin{enumerate}
+		    \begin{multicols}{4} 
+	\item $50_H$
+	\item   $5000_H$
+	\item  $A0_H$
+	\item   $A000_H$
+\end{multicols}  
+
+\end{enumerate}
+
+\item The figure shows the circuit diagram of a rectifier. The load consists of a resistance 10 $\ohm$ and an
+inductance 0.05 $H$ connected in series. Assuming ideal thyristor and ideal diode, the thyristor
+firing angle (in degree) needed to obtain an average load voltage of 70 $V$ is \underline{\hspace{2.5 cm}}  \hfill{(2014-EE)}
+
+\begin{center}
+\input{figs/63.tex}
+\end{center}
+
+
+
+
+\item Figure (i) shows the circuit diagram of a chopper. The switch S in circuit in figure (i) is switched such that the voltage $v_D$ across the diode has the wave shape as shown in figure (ii). The capacitance $C$ is large so that the voltage across it is constant. If switch S and the diode are ideal, the peak to peak ripple(in A) in the inductor current is  \underline{\hspace{2.5 cm}}    \hfill{(2014-EE)} 
+         
+\begin{center}
+\input{figs/54f1.tex}
+Figure(i)
+\end{center}
+
+\begin{center}
+\input{figs/54f2.tex}
+Figure(ii)
+\end{center}
+
+
+\item The figure shows one period of the output voltage of an inverter. $\alpha$ should be chosen such that $60 ^{\circ} < \alpha<90^{\circ}$. If the rms value of fundamental component is 50 V, then $\alpha$ in degree  is \underline{\hspace{2.5 cm}}  \hfill{(2014-EE)}
+
+\begin{center}
+\input{figs/65.tex}
+\end{center}
+\begin{center}
+    \textbf{END OF THE QUESTION PAPER}
+    \end{center}
+\end{enumerate}
+
+
+\end{document}

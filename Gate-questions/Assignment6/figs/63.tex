@@ -1,0 +1,29 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+\draw (3.75,14.75) to[sinusoidal voltage source, sources/symbol/rotate=auto] (3.75,10.5);
+\draw (3.75,10.5) to[short] (12.25,10.5);
+\draw (12.25,14.75) to[european resistor] (12.25,10.5);
+\draw (10.25,10.5) to[D] (10.25,14.75);
+\node [font=\LARGE] at (2,13.75) {};
+\node [font=\large] at (13,12.75) {load};
+\node [font=\large] at (3.25,12) {+};
+\node [font=\normalsize] at (8.5,14.35) {$\mid$};
+\node [font=\large] at (1.75,12.75) {$325sin(314t)V$};
+\node [font=\Large] at (3.25,13.25) {-};
+
+\draw (3.75,14.75) to[D] (12.25,14.75);
+\draw [ line width=0.75pt]  (8.26,14.651) to[short] (8.5,14.5);
+\end{circuitikz}
+}%
+
+
+
+\end{document}

@@ -1,0 +1,30 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+\centering
+\resizebox{0.9\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+
+
+\draw  (6.25,14) circle (0.75cm);
+\draw [->, >=Stealth] (7,14) -- (8.25,14);
+\draw  (8.25,15) rectangle (15.75,13.25);
+\draw [->, >=Stealth] (4.5,14) -- (5.5,14);
+\draw [->, >=Stealth] (6.25,12) .. controls (6.25,12.5) and (6.25,13) .. (6.25,13.25) ;
+\draw [->, >=Stealth] (15.75,14) -- (17.75,14);
+\draw [short] (6.25,12) -- (16.75,12);
+\draw [short] (16.75,12) -- (16.75,14);
+\node [font=\normalsize] at (4,14) {$R(s)$};
+\node [font=\normalsize] at (18.5,14) {$C(s)$};
+\node [font=\LARGE] at (12,14) {$\frac{(s+\alpha)}{s^{3}+ (1+\alpha )s^2 + (\alpha-1)s + (1-\alpha)}$};
+\node [font=\large] at (5.75,14) {+};
+\node [font=\large] at (6.25,13.5) {-};
+\draw [short] (5.75,14.5) -- (6.75,13.5);
+\draw [short] (5.75,13.5) -- (6.75,14.5);
+\end{circuitikz}
+}%
+
+\end{document}

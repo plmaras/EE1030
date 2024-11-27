@@ -1,0 +1,58 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+\centering
+\resizebox{0.6\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw [<->, >=Stealth,line width=1pt] (2.5,16.5) -- (2.5,5.5);
+\draw [<->, >=Stealth,line width=1pt] (-0.25,10) -- (9.25,10);
+\draw [<->, >=Stealth,line width=1pt] (14.5,16.5) -- (14.5,5.5);
+\draw [<->, >=Stealth,line width=1pt] (11.75,10) -- (20.75,10);
+\draw [short] (2.25,9.25) -- (2.75,9.25);
+\draw [short] (2.25,8.25) -- (2.75,8.25);
+\draw [short] (2.25,7.25) -- (2.75,7.25);
+\draw [line width=2pt, short] (2.5,10) -- (4,10);
+\draw [line width=2pt, short] (4,10) -- (6,6.5);
+\draw [line width=0.6pt, short] (14.5,10) .. controls (19.75,10.25) and (16,7.5) .. (20.5,7.75);
+\draw [line width=0.6pt, short] (14.25,9.25) -- (14.75,9.25);
+\draw [line width=0.6pt, short] (14.25,8.25) -- (14.75,8.25);
+\draw [line width=0.6pt, short] (14.25,7.25) -- (14.75,7.25);
+\draw [line width=0.6pt, short] (15.5,10.25) -- (15.5,9.75);
+\draw [line width=0.6pt, short] (4,10.25) .. controls (4,10) and (4,10) .. (4,9.75);
+\draw [line width=0.6pt, short] (16.75,10.25) -- (16.75,9.75);
+\draw [line width=0.6pt, short] (19.5,10.25) -- (19.5,9.75);
+\draw [line width=0.6pt, short] (18,10.25) -- (18,9.75);
+\draw [line width=0.6pt, short] (5.25,10.25) -- (5.25,9.5);
+\draw [line width=0.6pt, short] (3.25,10.25) -- (3.25,9.75);
+\node [font=\LARGE] at (13,9.25) {-$\pi$/4};
+\node [font=\LARGE] at (13,8.25) {-$\pi$/2};
+\node [font=\LARGE] at (14,14.75) {$\phi$};
+\node [font=\LARGE] at (14,10.75) {0};
+\node [font=\Large] at (14.75,9.75) {1};
+\node [font=\LARGE] at (15.5,9.5) {10};
+\node [font=\LARGE] at (17,11) {$10^2$};
+\node [font=\LARGE] at (20,9.5) {$\omega$};
+\node [font=\LARGE] at (18.75,10.75) {$10^3$};
+\node [font=\LARGE] at (1.5,9.25) {-10};
+\node [font=\LARGE] at (-1.75,14.25) {$20log(| \frac{V_0(\omega)}{V_i(\omega)} |)$};
+\node [font=\LARGE] at (5.5,10.75) {$10^3$};
+
+\node [font=\LARGE] at (3.25,9.25) {10};
+\node [font=\LARGE] at (4.25,10.75) {$10^2$};
+\node [font=\LARGE] at (1.5,7.25) {-30};
+\node [font=\LARGE] at (1.5,8.25) {-20};
+\node [font=\LARGE] at (2.75,10.5) {1};
+\node [font=\LARGE] at (2,10.5) {0};
+\node [font=\LARGE] at (-0.5,6.5) {$10^3$};
+\node [font=\LARGE] at (8,9.25) {$\omega$};
+\node [font=\LARGE] at (13.25,13.5) {$\pi$/2};
+\node [font=\LARGE] at (13.25,11.75) {$\pi$/4};
+\draw [line width=0.6pt, short] (14.25,11.75) -- (14.75,11.75);
+\draw [line width=0.6pt, short] (14.25,13.5) -- (15,13.5);
+\end{circuitikz} }%
+
+
+\end{document}

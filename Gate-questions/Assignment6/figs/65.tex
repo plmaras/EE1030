@@ -1,0 +1,46 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+\centering
+\resizebox{1\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+
+\draw [short] (1.75,2.25) -- (1.75,8.75);
+\draw [short] (-4,2.5) -- (-4,8.75);
+\draw [short] (3.25,2.25) .. controls (3.25,5) and (3.25,4.75) .. (3.25,8.75);
+\draw [short] (-4,8.75) -- (1.75,8.75);
+\draw [short] (1.75,2.25) -- (3.25,2.25);
+\draw [short] (9,2.25) -- (9,8.75);
+\draw [short] (3.25,3.25) -- (3.25,8.75);
+\draw [short] (22,2.25) .. controls (22,5.75) and (22,4.75) .. (22,8.75);
+\draw [short] (3.25,8.75) -- (9,8.75);
+\node [font=\LARGE] at (-0.5,8.25) {};
+\node [font=\LARGE] at (-0.5,8.25) {};
+\node [font=\LARGE] at (6.5,9.25) {100V};
+\node [font=\LARGE] at (2.25,1.5) {-100V};
+\node [font=\LARGE] at (-1,9.25) {100V};
+\node [font=\LARGE] at (19,1.5) {-100V};
+\node [font=\LARGE] at (15.5,9) {100V};
+\node [font=\LARGE] at (1.25,5.25) {$\alpha$};
+\node [font=\LARGE] at (-3.75,5.25) {0};
+\node [font=\LARGE] at (11.5,1.5) {-100V};
+\node [font=\LARGE] at (8,5.25) {180};
+\node [font=\LARGE] at (4.25,5) {180-$\alpha$};
+\node [font=\LARGE] at (21.25,5.25) {360};
+\node [font=\LARGE] at (17.25,5.25) {360-$\alpha$};
+\node [font=\LARGE] at (23.5,5.25) {$\omega t$};
+\node [font=\LARGE] at (13.5,5.25) {180+$\alpha$};
+\node [font=\LARGE] at (23.25,4.5) {(degree)};
+\draw [->, >=Stealth] (-4.5,5.75) -- (24.5,5.75);
+\draw [short] (9,2.25) -- (14.75,2.25);
+\draw [short] (16.25,2.25) -- (22,2.25);
+\draw [short] (14.75,8.75) -- (14.75,2.25);
+\draw [short] (16.25,8.75) -- (16.25,2.25);
+\draw [short] (14.75,8.75) -- (16.25,8.75);
+\end{circuitikz}
+}
+
+\end{document}

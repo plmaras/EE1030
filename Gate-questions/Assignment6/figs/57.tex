@@ -1,0 +1,43 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\centering
+\resizebox{0.4\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw (5.25,4.25) to[short] (5.5,4.25);
+\draw (1.25,13.5) to[european resistor] (7.25,13.5);
+\draw (5.5,12) to[L ] (5.5,9);
+\draw (9,9) to[L ] (9,5);
+\draw (9,12) to[C] (9,9);
+\draw (5.5,8.5) to[C] (5.5,5);
+\draw (5.5,9) to[short] (5.5,7.25);
+\draw (5.5,12) to[short] (7.5,12);
+\draw (7.25,12) to[short] (9,12);
+\draw (5.5,8.5) to[short] (6.75,8.5);
+\draw (5.5,5) to[short] (7.5,5);
+\draw (5.5,5) to[short] (9,5);
+\node at (1.25,4.25) [circ] {};
+\node at (1.25,4.25) [circ] {};
+\draw (1.25,4.25) to[short] (7.25,4.25);
+\draw (7.25,4.25) to[short] (7.25,5);
+\node at (1.25,13.5) [circ] {};
+\draw (7.25,12) to[short] (7.25,13.5);
+\draw  (7.25,8.5) ellipse (0.5cm and 0.75cm);
+\draw (7.75,8.5) to[short] (9,8.5);
+\node [font=\LARGE] at (7.25,8.5) {V};
+\node [font=\LARGE] at (4,14.25) {R = 0.5 $\Omega$};
+\draw [->, >=Stealth] (1.25,9.75) .. controls (1.25,11.5) and (1.25,11.5) .. (1.25,13.25) ;
+\draw [->, >=Stealth] (1.25,7.75) -- (1.25,4.5);
+\node [font=\LARGE] at (10.75,10.5) {1/j$\Omega$};
+\node [font=\LARGE] at (1.25,8.75) {100 $sin(\omega t)$};
+\node [font=\LARGE] at (4.25,6.75) {1/j$\Omega$};
+\node [font=\LARGE] at (4.5,10.5) {1j$\Omega$};
+\node [font=\LARGE] at (11,7) {1j$\Omega$};
+\end{circuitikz}
+}%
+
+\end{document}

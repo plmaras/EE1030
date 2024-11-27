@@ -1,0 +1,37 @@
+\documentclass{standalone}
+\usepackage{amsmath, tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+\centering
+\resizebox{0.6\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [ line width=0.7pt](24.5,18.5) to[european resistor] (24.5,14.5);
+\draw [line width=0.7pt](21.25,18.5) to[C] (21.25,14.5);
+\draw [ line width=0.8pt](21.25,14.5) to[short] (24.5,14.5);
+\draw (10,18.5) to[battery1] (10,14.5);
+\draw [ line width=0.9pt](15.25,14.5) to[D] (15.25,18.5);
+\draw [ line width=0.7pt](21.25,14.5) to[short] (10,14.5);
+\draw [ line width=0.7pt](17.25,18.5) to[short] (14.5,18.5);
+\draw [line width=0.7pt, short] (17.25,18.5) .. controls (17.5,18.75) and (17.75,18.75) .. (18,18.5);
+\draw [line width=0.7pt, short] (19.5,18.5) -- (24.5,18.5);
+\draw [line width=0.7pt, short] (18,18.5) .. controls (18.25,18.75) and (18.5,18.75) .. (18.75,18.5);
+\draw [line width=0.7pt, short] (18.75,18.5) .. controls (19,18.75) and (19.25,18.75) .. (19.5,18.5);
+\node [font=\normalsize] at (18.5,19) {1mH};
+\node [font=\large] at (22,16.75) {C};
+\node [font=\large] at (25.5,16.5) {Load};
+\node [font=\large] at (14.5,16.5) {$V_D$};
+\node [font=\Large] at (14.5,18) {+};
+\node [font=\LARGE] at (14.5,15.5) {-};
+\node [font=\large] at (9,16.5) {100V};
+\draw [ line width=0.7pt](10,18.5) to[short, -o] (11.75,18.5) ;
+\draw [ line width=0.7pt](14.5,18.5) to[short, -o] (12.5,18.5) ;
+\draw [line width=0.8pt, short] (11.75,19) -- (12.5,18.5);
+\node [font=\large] at (12.5,19) {S};
+\end{circuitikz}
+}%
+
+
+
+\end{document}
